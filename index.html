@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeAutoMyPage プライバシーポリシー</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #e2e8f0;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    }
+
+    h1, h2 {
+      line-height: 1.4;
+      margin: 0 0 16px;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      margin-top: 32px;
+    }
+
+    p, li {
+      color: var(--muted);
+      margin: 0 0 12px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    .lead {
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .meta {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="panel">
+      <h1>SafeAutoMyPage プライバシーポリシー</h1>
+      <p class="lead">
+        SafeAutoMyPage（以下、「本拡張機能」）は、ユーザーが入力したプロフィール情報を、
+        対応する就職活動サイト等の入力フォームへ自動入力するために利用されます。
+        本プライバシーポリシーでは、本拡張機能における情報の取扱いについて説明します。
+      </p>
+
+      <h2>1. 取得・保存する情報</h2>
+      <p>本拡張機能は、ユーザーが任意で入力した次の情報を扱います。</p>
+      <ul>
+        <li>氏名、フリガナ、性別、生年月日</li>
+        <li>メールアドレス、電話番号</li>
+        <li>住所、郵便番号、休暇中連絡先</li>
+        <li>学校名、学部、学科、卒業予定年月などの学校情報</li>
+        <li>ユーザーが管理するマイページのURL、タイトル、ログインID</li>
+      </ul>
+      <p>本拡張機能は、パスワードを保存しません。</p>
+
+      <h2>2. 情報の保存場所</h2>
+      <p>
+        本拡張機能で扱う情報は、ユーザーのブラウザ内の
+        <code>chrome.storage.local</code> に保存されます。
+      </p>
+
+      <h2>3. 情報の利用目的</h2>
+      <p>保存された情報は、以下の目的にのみ利用されます。</p>
+      <ul>
+        <li>対応サイトの入力フォームへの自動入力</li>
+        <li>保存済みマイページ情報の表示および管理</li>
+        <li>ユーザー操作に応じた入力補助機能の提供</li>
+      </ul>
+
+      <h2>4. 外部送信について</h2>
+      <p>
+        本拡張機能は、ユーザーが保存したプロフィール情報やログインID等の入力データを、
+        開発者の外部サーバーへ送信しません。
+      </p>
+
+      <h2>5. 第三者提供について</h2>
+      <p>
+        本拡張機能は、ユーザー情報を第三者へ販売、共有、提供しません。
+      </p>
+
+      <h2>6. 権限の利用について</h2>
+      <p>本拡張機能は、以下の目的で Chrome の権限を利用します。</p>
+      <ul>
+        <li><code>storage</code>: 入力情報および保存済みマイページ情報の保存</li>
+        <li><code>activeTab</code>: 現在開いている対応ページに対する動作実行</li>
+        <li><code>scripting</code>: 対応ページ上での自動入力処理の実行</li>
+      </ul>
+
+      <h2>7. ユーザーによる削除</h2>
+      <p>
+        ユーザーは、本拡張機能の設定画面から保存データを変更または削除できます。
+        また、本拡張機能をアンインストールすることで、ブラウザ内に保存された関連データを削除できます。
+      </p>
+
+      <h2>8. 改定について</h2>
+      <p>
+        本プライバシーポリシーは、必要に応じて改定されることがあります。
+        重要な変更がある場合は、公開ページ上で更新後の内容を表示します。
+      </p>
+
+      <h2>9. お問い合わせ</h2>
+      <p>
+        本プライバシーポリシーに関するお問い合わせは、以下の連絡先までお願いします。
+      </p>
+      <p>[連絡先メールアドレスを記載してください]</p>
+
+      <div class="meta">
+        <p>最終更新日: 2026-04-25</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
